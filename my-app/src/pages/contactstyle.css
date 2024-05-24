@@ -1,0 +1,46 @@
+body {
+  background-color: #799351 !important;
+}
+
+.myheading{
+  text-align:center;
+  margin-top : 30px; 
+  color: #FFFDD0;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  animation: slideIn 1s ease-out;
+
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+}
+@keyframes fade {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+  
+}
+.sec{
+  justify-content: center;
+  background-color: white;
+  width: 90%;
+  margin: auto; /* Center the div itself horizontally */
+  padding: 5px; /*Reset padding */
+  box-sizing: border-box;
+  border-radius: 30px; 
+  animation: fade 2s ;
+}
