@@ -30,7 +30,7 @@ function Faq() {
   return (
 		<div>
 			<NavBar init="4" />
-			<h1 className="myheading">&emsp;&emsp;FAQs</h1>
+			<h1 className="faqmyheading">&emsp;&emsp;FAQs</h1>
 			<div className="mytable">
 				<table className="table">
 				  <tbody>

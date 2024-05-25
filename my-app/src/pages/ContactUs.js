@@ -8,13 +8,18 @@ function ContactUs() {
 	return (
 		<div>
 			<NavBar init="5" />
-			<h1 className="myheading">Reach us out</h1>
-			<div className="sec">
-				<div style={{ display: "flex" }}>
-					<Map />
-					<TextArea />
+			<div >
+				<h1 className="myheading">Reach us out</h1>
+				<div className="sec">
+					<div style={{ display: "flex", justifyContent: "space-between" }}>
+						<Map />
+						<TextArea />
+					</div>
+					<p style={{ textAlign: "center" }}>
+						{" "}
+						&#x260E; Mobile +91 94480 01577{" "}
+					</p>
 				</div>
-				<p style={{ textAlign: "center" }}> &#x260E; Mobile +91 94480 01577 </p>
 			</div>
 		</div>
 	);
