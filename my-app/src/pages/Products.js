@@ -122,7 +122,7 @@ function Products() {
 									<p>&emsp;&emsp;Height = 15 inches</p>
 									<br />
 									<h6>&emsp;Weight ~50 Kg</h6>
-									<h6>&emsp;Price per brick 450 Rupees</h6>
+									<h6>&emsp;Price per ring 450 Rupees</h6>
 								</div>
 							</div>
 						</ProductCard>

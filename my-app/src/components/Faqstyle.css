@@ -1,0 +1,25 @@
+.Faqquestion{
+  color: #FFFDD0;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex !important;
+    justify-content: space-between !important;
+    cursor: pointer; 
+    
+}
+
+.Faqanswer{
+
+  color: #FFFDD0;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+   font-size: 20px;
+    padding-left: 30px; 
+}
