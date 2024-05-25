@@ -1,0 +1,104 @@
+.products {
+  display: flex;
+  justify-content: center;
+
+}
+.tnc{
+  
+  margin-inline: 10%;
+  padding: 1%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cardheading{
+  text-align: center;
+}
+.cardimg{
+  height: 200px;
+  margin-top: 10%;
+}
+.cardiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Mainheading{
+  color: #87CEEB;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  text-align: center;
+  animation: toptodown 1.4s ease-out;
+  
+}
+#topl{
+  animation: lefttoright 1s ease-in;
+}
+#topr{
+  animation: righttoleft 1s ease-in;
+}
+@keyframes toptodown {
+  from {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+}
+
+@keyframes downtotop {
+  from {
+    transform: translateY(40%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+}
+@keyframes lefttoright {
+  from {
+    transform: translate(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+}
+@keyframes righttoleft {
+  from {
+    transform: translate(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+}
+.heading{
+  text-align:justify;
+  margin-inline: 3%;
+  color: #FFFDD0;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  animation: downtotop 1.4s ease-out;
+}
+.Loadmore{
+    text-align: center;
+    color: #FFFDD0;
+}
+
+.down{
+    height: 40px;
+    margin-inline: 10px;
+}

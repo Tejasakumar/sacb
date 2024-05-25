@@ -4,7 +4,8 @@ function AboutUs() {
   return (
       <div>
           <NavBar init="2" />
-          <h1>this is about us page</h1>
+      <h1>this is about us page</h1>
+      
     </div>
   )
 }
