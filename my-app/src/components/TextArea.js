@@ -31,7 +31,7 @@ function TextArea() {
 
 	}
   return (
-		<div style={{margin :50+"px"}}>
+		<div >
 			<BgCard>
 				<div style={{ width: 400 + "px" }}>
 					<div className="mb-3" style={{ margin: 30 + "px" }}>

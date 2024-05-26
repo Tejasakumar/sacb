@@ -11,11 +11,11 @@ function ContactUs() {
 			<div >
 				<h1 className="myheading">Reach us out</h1>
 				<div className="sec">
-					<div style={{ display: "flex", justifyContent: "space-between" }}>
+					<div className="playground">
 						<Map />
 						<TextArea />
 					</div>
-					<p style={{ textAlign: "center" }}>
+					<p className="pyara">
 						{" "}
 						&#x260E; Mobile +91 94480 01577{" "}
 					</p>

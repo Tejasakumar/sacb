@@ -1,18 +1,44 @@
+/* Base styles for all devices */
 body {
   background-color: #799351 !important;
+  margin: 0;
+  padding: 0;
+  font-family: "Exo 2", sans-serif;
 }
 
-.myheading{
-  text-align: center !important;
-  margin-top : 30px; 
+.myheading {
+  text-align: center;
+  margin-top: 2%; /* Adjusted from 30px */
   color: #FFFDD0;
-  font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
   animation: slideIn 1s ease-out;
-
 }
+
+.pyara {
+  text-align: center;
+}
+
+.playground {
+  /* display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  gap: 5%; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%; /* Remove inline padding */
+  width: 100%; /* Ensure the div takes full width */
+  gap: 2%; 
+}
+
+.playground * {
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+  }
 
 @keyframes slideIn {
   from {
@@ -23,24 +49,84 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
-
 }
+
 @keyframes fade {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
-  
 }
-.sec{
+
+.sec {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: white;
   width: 90%;
   margin: auto; /* Center the div itself horizontally */
-  padding: 5px; /*Reset padding */
+  padding: 1%; /* Adjusted from 5px */
   box-sizing: border-box;
-  border-radius: 30px; 
-  animation: fade 2s ;
+  border-radius: 30px;
+  animation: fade 2s;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .sec {
+    width: 95%;
+    padding: 2%;
+  }
+  .playground {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .sec {
+    width: 95%;
+    padding: 2.5%;
+    margin: 3%;
+  }
+  .playground {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .sec {
+    width: 95%;
+    padding: 3%;
+  }
+  .myheading {
+    font-size: 1.5em;
+  }
+  .playground {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .sec {
+    width: 95%;
+    padding: 3%;
+    margin: 4% auto;
+  }
+  .myheading {
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .playground {
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+  }
+  
 }

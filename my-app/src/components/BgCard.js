@@ -5,7 +5,7 @@ function BgCard(Params) {
 		<div>
 			<div
 				className="card"
-				style={{ backgroundColor: "#A1DD70",marginLeft:60+"px", height: 450+"px" }}
+				style={{ backgroundColor: "#A1DD70", height: 450+"px" }}
 			>
 				<div className="card-body">
 					{Params.children}
