@@ -1,6 +1,6 @@
 .faqmyheading{
   text-align:left !important;
-  margin-top : 30px; 
+  margin-top : 3%; 
   color: #FFFDD0;
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
@@ -22,7 +22,7 @@
 }
 
 .mytable{
-    margin :50px;
+    margin :5%;
     height: 80%;
 }
 
