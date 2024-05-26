@@ -34,10 +34,10 @@
 }
 @media (max-width: 500px) {
   .Faqquestion {
-    font-size: 12px; /* Reduced by 8px */
+    font-size: 15px; /* Reduced by 8px */
   }
 
   .Faqanswer {
-    font-size: 7px; /* Reduced by 8px */
+    font-size: 12px; /* Reduced by 8px */
   }
 }
